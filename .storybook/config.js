@@ -1,4 +1,11 @@
-import { configure } from '@storybook/react'
+import { addDecorator, configure } from '@storybook/react'
+
+import results from '../jest-test-results.json'
+import { withTests } from '@storybook/addon-jest'
+
+addDecorator(
+  withTests({ results })
+)
 
 const req = require.context('../src/components', true, /\.stories\.js$/)
 

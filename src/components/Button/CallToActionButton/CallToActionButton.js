@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import Button from '..'
+import Button from '../Button'
 
 const CallToActionButton = styled(Button)`
   background-color: #E7774A;

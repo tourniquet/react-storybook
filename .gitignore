@@ -3,3 +3,6 @@ node_modules/
 
 # production build
 buid/js
+
+# jest result file
+jest-test-results.json

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --json --outputFile=jest-test-results.json",
+    "test": "jest --json --outputFile=jest-test-results.json || true",
     "dev": "webpack-dev-server --content-base=build/",
     "build": "webpack --mode=production",
     "storybook": "start-storybook -p 9001 -c .storybook"
@@ -31,7 +31,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.28.7",
     "enzyme": "^3.7.0",
-    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-adapter-react-16": "^1.10.0",
     "jest": "^24.1.0",
     "node-sass": "^4.10.0",
     "postcss-loader": "^2.0.6",

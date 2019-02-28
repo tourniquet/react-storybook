@@ -1,9 +1,9 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { mount } from 'enzyme'
 
-import Button from './'
+import Button from './Button'
 
-const wrapper = shallow(
+const wrapper = mount(
   <Button />
 )
 

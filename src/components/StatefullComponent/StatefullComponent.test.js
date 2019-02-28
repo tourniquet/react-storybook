@@ -2,7 +2,7 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import { createStore } from 'redux'
 
-import ConnectedApp from './index'
+import ConnectedApp from './StatefullComponent'
 
 import reducer from '../../reducers/reducer'
 const store = createStore(reducer)

@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import StatelessComponent from './index.js'
+import StatelessComponent from './StatelessComponent'
 
 const wrapper = shallow(<StatelessComponent />)
 

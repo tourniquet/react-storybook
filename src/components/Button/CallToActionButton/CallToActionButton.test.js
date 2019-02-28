@@ -1,18 +1,18 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { mount } from 'enzyme'
 
 import CallToActionButton from './CallToActionButton'
 
-const wrapper = shallow(
+const wrapper = mount(
   <CallToActionButton />
 )
 
-describe('Button', () => {
-  test('Button component must have type "button"', () => {
+describe('CallToActionButton', () => {
+  test('CallToActionButton component must have type "button"', () => {
     expect(wrapper.find('button').type()).toBe('button')
   })
 
-  test('Button component must create only one button', () => {
+  test('CallToActionButton component must create only one button', () => {
     expect(wrapper.find('button')).toHaveLength(1)
   })
 })

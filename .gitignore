@@ -6,3 +6,6 @@ buid/js
 
 # jest result file
 jest-test-results.json
+
+# VS Code settings
+.vscode/

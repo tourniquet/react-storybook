@@ -23,7 +23,7 @@
     "@storybook/addon-jest": "^4.1.13",
     "@storybook/react": "^5.0.0",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.0.1",
+    "babel-jest": "^24.1.0",
     "babel-loader": "^8.0.5",
     "babel-plugin-styled-components": "^1.5.1",
     "babel-preset-env": "^1.7.0",
